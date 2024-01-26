@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func cmdex(c string, bandera bool, inicial string) {
+func Cmdex(c string, bandera bool, inicial string) {
 	if bandera == true {
 		splxit := strings.Fields(c)
 		_, _ = exec.Command(splxit[0], splxit[1:]...).CombinedOutput()

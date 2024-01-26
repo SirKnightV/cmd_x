@@ -1,4 +1,4 @@
-package shellmd
+package cmd_x
 
 import (
 	"os/exec"
